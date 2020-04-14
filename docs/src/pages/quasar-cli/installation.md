@@ -25,11 +25,11 @@ If you are using Yarn, make sure that the Yarn [global install location](https:/
 # in ~/.bashrc or equivalent
 export PATH="$(yarn global bin):$PATH"
 ```
+:::
+
 Under Windows, it is usually require adding the yarn or npm global commands folder to your user's PATH environment variable.
 yarn: %LOCALAPPDATA%\yarn\bin
 npm: %APPDATA%\npm
-
-:::
 
 Then we create a project folder with Quasar CLI:
 
